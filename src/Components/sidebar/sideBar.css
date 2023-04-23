@@ -5,6 +5,7 @@
     background-color: #fff;
     box-shadow: 0 1px 1px #ccc;
     background-color: #15294b;
+    z-index: 60;
 }
 
 .sidebar-wrapper{
