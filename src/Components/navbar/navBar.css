@@ -1,0 +1,25 @@
+.nav-container{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    z-index: 90;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.nav-avatar{
+    width: 2.5rem;
+}
