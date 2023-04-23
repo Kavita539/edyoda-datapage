@@ -8,7 +8,7 @@
 }
 
 .sidebar-wrapper{
-    padding: 6rem 0;  
+    padding: 3rem 0;  
 }
 
 .sidebar-li-item{
@@ -19,6 +19,12 @@
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
+}
+
+.sidebar-li-item:hover{
+    background-color: hsla(0,0%,100%,.7);
+    color: #15294b;
+    padding: 1rem;
 }
 
 .sidebar-li-content{
