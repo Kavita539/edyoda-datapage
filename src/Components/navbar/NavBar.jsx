@@ -10,8 +10,8 @@ const NavBar = () => {
                 <img src={edyodaLogo} alt="edyoda-logo" className="edyoda-logo"/>
             </div>
             <ul className="nav-list">
-                <div>Hi, Test Learner</div>
-                <img src={edyodaAvatar} alt="learner-avatar"className="nav-avatar" />
+                <li>Hi, Test Learner</li>
+                <li><img src={edyodaAvatar} alt="learner-avatar"className="nav-avatar" /></li>
             </ul>
         </nav>
     </div>
