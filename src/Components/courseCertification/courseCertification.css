@@ -1,0 +1,58 @@
+.course-certification{
+    border: 1px solid #87cefa;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.certification-duration, .certification-structure, .certification-details{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.attempt{
+    background-color: #ccc;
+    color: #000;
+    padding: 4px;
+}
+
+.course{
+    max-width: 7rem;
+}
+
+.completion{
+    background-color: #87cefa;
+    color: #000;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.structure{
+    font-weight: 500;
+}
+
+.mcq,.coding,.projects{
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0 1rem;
+}
+
+.exam-details-btn{
+    border: 1px solid #87cefa;
+    color: #87cefa;
+    border-radius: 4rem;
+    background-color: transparent;
+    box-shadow: 0 1px 1px #ccc;
+    outline: none;
+    font-weight: 500;
+    padding: 12px;
+}

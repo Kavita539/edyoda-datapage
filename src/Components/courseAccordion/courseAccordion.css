@@ -4,6 +4,9 @@
     padding-bottom: 2rem;
     background-color: #15294b;
     color: hsla(0,0%,100%,.7);
+    position: fixed;
+    width: 100%;
+    z-index: 80;
 }
 
 .accordion-header{

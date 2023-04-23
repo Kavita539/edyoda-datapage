@@ -1,0 +1,76 @@
+.course-details {
+    border: 1px solid #87cefa;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.instructor-details{
+    height: 100%;
+}
+
+.instructor-details-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-right: 1px solid #87cefa;
+    padding: 0 1rem;
+}
+
+.course-instructor {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.edyoda-instructor {
+    width: 1.7rem;
+}
+
+.course-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.data-transgorm-details {
+    font-weight: 500;
+    color: #87cefa;
+    width: 12rem;
+}
+
+.todays-plan-time {
+    font-size: 12px;
+}
+
+.feedback-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.todays-plan-time,
+.feedback-details-header,
+.live-session-time {
+    color: #ccc;
+}
+
+.feedback-details-time {
+    color: #87cefa;
+    font-style: italic;
+}
+
+.live-session-btn {
+    background-color: #ccc;
+    color: #000;
+    padding: 12px;
+    border-radius: 12rem;
+    border: 1px solid #000;
+}

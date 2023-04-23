@@ -1,14 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import CourseAccordion from './Components/courseAccordion/CourseAccordion';
-import NavBar from './Components/navbar/NavBar';
-import SideBar from './Components/sidebar/SideBar';
+import Home from './pages/home/Home';
+import Modules from './pages/modules/Modules';
+import Instructor from './pages/instructor/Instructor';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <CourseAccordion />
-      <SideBar/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/modules' element={<Modules />}/>
+        <Route path='/instructor' element={<Instructor />}/>
+      </Routes>
     </div>
   );
 }

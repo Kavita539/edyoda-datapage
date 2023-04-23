@@ -1,0 +1,25 @@
+.home-area {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    justify-content: flex-start;
+    padding: 11.5rem 0;
+}
+
+.home-content {
+    padding: 0 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.module-details-btn {
+    color: #87cefa;
+    margin-left: 35rem;
+    text-transform: uppercase;
+}
+
+.home-details {
+    display: flex;
+    gap: 4rem;
+}

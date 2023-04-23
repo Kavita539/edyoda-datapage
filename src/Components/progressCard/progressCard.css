@@ -1,0 +1,26 @@
+.progress-card{
+    border: 1px solid #87cefa;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.grade, .attendance{
+    border: 1px solid #87cefa;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    max-width: 10rem;
+    gap: 2rem
+}
+
+.progress-overview{
+    color: #ccc;
+    font-weight: 500;
+}
