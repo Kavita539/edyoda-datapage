@@ -1,0 +1,15 @@
+.instructor-area {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    justify-content: flex-start;
+    padding: 30rem 0;
+}
+
+.instructor-content {
+    padding: 0 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
