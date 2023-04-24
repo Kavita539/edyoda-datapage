@@ -24,7 +24,81 @@
     background-color: #ccc;
 }
 
+
+.modulessidebar-li-item {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.assignment,
+.quiz,
+.topic {
+    margin-right: 16px;
+}
+
+.modulessidebar-li-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
  .modules-main{
     padding: 0 20rem;
     position: fixed;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 } 
+
+.quiz-details-card{
+    border: 1px solid #87cefa;
+    box-shadow: 0 1px 1px #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.question-answer-overview{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    border-right: 1px solid #ccc;
+    padding: 2rem;
+    align-items: center;
+}
+
+.total-question, .total-score , .duration{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.questions-span,.duration-span, .score-span{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.start-end-date{
+    display: flex;
+    gap: 5rem;
+    padding: 1.5rem;
+    width: 28rem;
+}
+
+.start-date-time,.end-date-time{
+    margin-top: 16px;
+}
+
+.calendar, .clock{
+    margin-right: 1rem;
+    width: 18px;
+}
+
+.start-date,.end-date{
+  margin-bottom: 14px;
+}

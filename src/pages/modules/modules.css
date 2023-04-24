@@ -6,7 +6,7 @@
     padding: 10rem 0;
 }
 
-.modulessidebar-container{
+.modulessidebar-container {
     padding: 2rem;
     width: 15rem;
     height: 100%;
@@ -15,3 +15,21 @@
     background-color: #ccc;
 }
 
+.modulessidebar-li-item {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.assignment,
+.quiz,
+.topic {
+    margin-right: 16px;
+}
+
+.modulessidebar-li-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

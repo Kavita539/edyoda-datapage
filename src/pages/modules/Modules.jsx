@@ -19,15 +19,15 @@ const Modules = () => {
         <ul className="modulessidebar-wrapper">
         <li className="modulessidebar-li-item">
           <Link to="/modules/topic">
-          <img src={topic} alt="topic" /><span className="modulessidebar-li-content">Python Loops</span></Link>
+          <img src={topic} alt="topic" className="topic"/><span className="modulessidebar-li-content">Python Loops</span></Link>
         </li>
         <li className="modulessidebar-li-item">
           <Link to="/modules/quiz">
-          <img src={quiz} alt="quiz" /><span className="modulessidebar-li-content">quiz 1: Data Types</span></Link>
+          <img src={quiz} alt="quiz" className="quiz"/><span className="modulessidebar-li-content">quiz 1: Data Types</span></Link>
         </li>
         <li className="modulessidebar-li-item">
           <Link to="/modules/assignment">
-          <img src={assignment} alt="assignment" /><span className="modulessidebar-li-content">Assignment 1: Loops</span></Link>
+          <img src={assignment} alt="assignment"  className="assignment"/><span className="modulessidebar-li-content">Assignment 1: Loops</span></Link>
         </li>
       </ul>
         </aside>
